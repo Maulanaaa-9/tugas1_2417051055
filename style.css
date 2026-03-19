@@ -1,0 +1,103 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #1f2a5a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.linktree-container {
+  background: #2c3570;
+  padding: 40px 35px;
+  border-radius: 20px;
+  width: 400px;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+}
+
+.profil-header {
+  margin-bottom: 20px;
+}
+
+.profil-avatar {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  border: 3px solid white;
+  object-fit: cover;
+}
+
+.profil-nama {
+  color: white;
+  margin: 10px 0 5px;
+}
+
+.profil-deskripsi {
+  color: #cfcfcf;
+  font-size: 14px;
+}
+
+.daftar-link {
+  margin-top: 20px;
+}
+
+.tombol-link {
+  display: block;
+  margin: 12px 0;
+  padding: 14px;
+  border-radius: 12px;
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+  background: linear-gradient(90deg, #5f6fff, #7a88ff);
+  transition: 0.3s;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.tombol-link:hover {
+  transform: scale(1.05);
+  background: linear-gradient(90deg, #7a88ff, #5f6fff);
+}
+
+.tombol-link-penting {
+  background: #ff4d5a;
+}
+
+.tombol-link-penting:hover {
+  background: #ff2e3e;
+}
+
+.video-unggulan h2 {
+  color: white;
+  margin-top: 25px;
+}
+
+.video-wrapper {
+  margin-top: 10px;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+}
+
+.video-wrapper iframe {
+  width: 100%;
+  height: 300px;
+  border: none;
+}
+
+.deskripsi-video {
+  color: #ddd;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.linktree-footer {
+  margin-top: 20px;
+}
+
+.linktree-footer p {
+  color: #ccc;
+  font-size: 13px;
+}
